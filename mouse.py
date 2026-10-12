@@ -30,3 +30,6 @@ class Mouse:
         pyautogui.moveRel(dx_final, dy_final)
         return pyautogui.position()
 
+    def clicar(self):
+        pyautogui.click()
+

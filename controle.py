@@ -19,3 +19,7 @@ class Controle:
         valor_y = self.controle.get_axis(1)
 
         return (valor_x, valor_y)
+
+    def detectar_botao(self, event, botao):
+        return event.type == pygame.JOYBUTTONDOWN and event.button == botao
+       
